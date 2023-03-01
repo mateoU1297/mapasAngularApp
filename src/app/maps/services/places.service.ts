@@ -61,4 +61,8 @@ export class PlacesService {
       });
   }
 
+  deletePlaces(): void {
+    this.places = [];
+  }
+
 }
